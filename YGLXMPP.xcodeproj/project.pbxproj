@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842929FD1839BC1A0042B251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842929FC1839BC1A0042B251 /* Foundation.framework */; };
+		842929FF1839BC1A0042B251 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842929FE1839BC1A0042B251 /* CoreGraphics.framework */; };
+		84292A011839BC1A0042B251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84292A001839BC1A0042B251 /* UIKit.framework */; };
+		84292A071839BC1A0042B251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84292A051839BC1A0042B251 /* InfoPlist.strings */; };
+		84292A091839BC1A0042B251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292A081839BC1A0042B251 /* main.m */; };
+		84292A0D1839BC1A0042B251 /* YGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292A0C1839BC1A0042B251 /* YGLAppDelegate.m */; };
+		84292A0F1839BC1A0042B251 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84292A0E1839BC1A0042B251 /* Images.xcassets */; };
+		84292A161839BC1A0042B251 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84292A151839BC1A0042B251 /* XCTest.framework */; };
+		84292A171839BC1A0042B251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842929FC1839BC1A0042B251 /* Foundation.framework */; };
+		84292A181839BC1A0042B251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84292A001839BC1A0042B251 /* UIKit.framework */; };
+		84292A201839BC1A0042B251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84292A1E1839BC1A0042B251 /* InfoPlist.strings */; };
+		84292A221839BC1A0042B251 /* YGLXMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292A211839BC1A0042B251 /* YGLXMPPTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84292A191839BC1A0042B251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842929F11839BC1A0042B251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842929F81839BC1A0042B251;
+			remoteInfo = YGLXMPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842929F91839BC1A0042B251 /* YGLXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGLXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842929FC1839BC1A0042B251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		842929FE1839BC1A0042B251 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84292A001839BC1A0042B251 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84292A041839BC1A0042B251 /* YGLXMPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YGLXMPP-Info.plist"; sourceTree = "<group>"; };
+		84292A061839BC1A0042B251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84292A081839BC1A0042B251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84292A0A1839BC1A0042B251 /* YGLXMPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YGLXMPP-Prefix.pch"; sourceTree = "<group>"; };
+		84292A0B1839BC1A0042B251 /* YGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGLAppDelegate.h; sourceTree = "<group>"; };
+		84292A0C1839BC1A0042B251 /* YGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGLAppDelegate.m; sourceTree = "<group>"; };
+		84292A0E1839BC1A0042B251 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84292A141839BC1A0042B251 /* YGLXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGLXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84292A151839BC1A0042B251 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84292A1D1839BC1A0042B251 /* YGLXMPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YGLXMPPTests-Info.plist"; sourceTree = "<group>"; };
+		84292A1F1839BC1A0042B251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84292A211839BC1A0042B251 /* YGLXMPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGLXMPPTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842929F61839BC1A0042B251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842929FF1839BC1A0042B251 /* CoreGraphics.framework in Frameworks */,
+				84292A011839BC1A0042B251 /* UIKit.framework in Frameworks */,
+				842929FD1839BC1A0042B251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84292A111839BC1A0042B251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84292A161839BC1A0042B251 /* XCTest.framework in Frameworks */,
+				84292A181839BC1A0042B251 /* UIKit.framework in Frameworks */,
+				84292A171839BC1A0042B251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842929F01839BC1A0042B251 = {
+			isa = PBXGroup;
+			children = (
+				84292A021839BC1A0042B251 /* YGLXMPP */,
+				84292A1B1839BC1A0042B251 /* YGLXMPPTests */,
+				842929FB1839BC1A0042B251 /* Frameworks */,
+				842929FA1839BC1A0042B251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842929FA1839BC1A0042B251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842929F91839BC1A0042B251 /* YGLXMPP.app */,
+				84292A141839BC1A0042B251 /* YGLXMPPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842929FB1839BC1A0042B251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842929FC1839BC1A0042B251 /* Foundation.framework */,
+				842929FE1839BC1A0042B251 /* CoreGraphics.framework */,
+				84292A001839BC1A0042B251 /* UIKit.framework */,
+				84292A151839BC1A0042B251 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84292A021839BC1A0042B251 /* YGLXMPP */ = {
+			isa = PBXGroup;
+			children = (
+				84292A0B1839BC1A0042B251 /* YGLAppDelegate.h */,
+				84292A0C1839BC1A0042B251 /* YGLAppDelegate.m */,
+				84292A0E1839BC1A0042B251 /* Images.xcassets */,
+				84292A031839BC1A0042B251 /* Supporting Files */,
+			);
+			path = YGLXMPP;
+			sourceTree = "<group>";
+		};
+		84292A031839BC1A0042B251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84292A041839BC1A0042B251 /* YGLXMPP-Info.plist */,
+				84292A051839BC1A0042B251 /* InfoPlist.strings */,
+				84292A081839BC1A0042B251 /* main.m */,
+				84292A0A1839BC1A0042B251 /* YGLXMPP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84292A1B1839BC1A0042B251 /* YGLXMPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				84292A211839BC1A0042B251 /* YGLXMPPTests.m */,
+				84292A1C1839BC1A0042B251 /* Supporting Files */,
+			);
+			path = YGLXMPPTests;
+			sourceTree = "<group>";
+		};
+		84292A1C1839BC1A0042B251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84292A1D1839BC1A0042B251 /* YGLXMPPTests-Info.plist */,
+				84292A1E1839BC1A0042B251 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842929F81839BC1A0042B251 /* YGLXMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84292A251839BC1A0042B251 /* Build configuration list for PBXNativeTarget "YGLXMPP" */;
+			buildPhases = (
+				842929F51839BC1A0042B251 /* Sources */,
+				842929F61839BC1A0042B251 /* Frameworks */,
+				842929F71839BC1A0042B251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGLXMPP;
+			productName = YGLXMPP;
+			productReference = 842929F91839BC1A0042B251 /* YGLXMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84292A131839BC1A0042B251 /* YGLXMPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84292A281839BC1A0042B251 /* Build configuration list for PBXNativeTarget "YGLXMPPTests" */;
+			buildPhases = (
+				84292A101839BC1A0042B251 /* Sources */,
+				84292A111839BC1A0042B251 /* Frameworks */,
+				84292A121839BC1A0042B251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84292A1A1839BC1A0042B251 /* PBXTargetDependency */,
+			);
+			name = YGLXMPPTests;
+			productName = YGLXMPPTests;
+			productReference = 84292A141839BC1A0042B251 /* YGLXMPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842929F11839BC1A0042B251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YGL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ygl10;
+				TargetAttributes = {
+					84292A131839BC1A0042B251 = {
+						TestTargetID = 842929F81839BC1A0042B251;
+					};
+				};
+			};
+			buildConfigurationList = 842929F41839BC1A0042B251 /* Build configuration list for PBXProject "YGLXMPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 842929F01839BC1A0042B251;
+			productRefGroup = 842929FA1839BC1A0042B251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842929F81839BC1A0042B251 /* YGLXMPP */,
+				84292A131839BC1A0042B251 /* YGLXMPPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842929F71839BC1A0042B251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84292A071839BC1A0042B251 /* InfoPlist.strings in Resources */,
+				84292A0F1839BC1A0042B251 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84292A121839BC1A0042B251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84292A201839BC1A0042B251 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842929F51839BC1A0042B251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84292A091839BC1A0042B251 /* main.m in Sources */,
+				84292A0D1839BC1A0042B251 /* YGLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84292A101839BC1A0042B251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84292A221839BC1A0042B251 /* YGLXMPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84292A1A1839BC1A0042B251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842929F81839BC1A0042B251 /* YGLXMPP */;
+			targetProxy = 84292A191839BC1A0042B251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84292A051839BC1A0042B251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84292A061839BC1A0042B251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84292A1E1839BC1A0042B251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84292A1F1839BC1A0042B251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84292A231839BC1A0042B251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84292A241839BC1A0042B251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84292A261839BC1A0042B251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YGLXMPP/YGLXMPP-Prefix.pch";
+				INFOPLIST_FILE = "YGLXMPP/YGLXMPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84292A271839BC1A0042B251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YGLXMPP/YGLXMPP-Prefix.pch";
+				INFOPLIST_FILE = "YGLXMPP/YGLXMPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84292A291839BC1A0042B251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YGLXMPP.app/YGLXMPP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YGLXMPP/YGLXMPP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YGLXMPPTests/YGLXMPPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84292A2A1839BC1A0042B251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YGLXMPP.app/YGLXMPP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YGLXMPP/YGLXMPP-Prefix.pch";
+				INFOPLIST_FILE = "YGLXMPPTests/YGLXMPPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842929F41839BC1A0042B251 /* Build configuration list for PBXProject "YGLXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84292A231839BC1A0042B251 /* Debug */,
+				84292A241839BC1A0042B251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84292A251839BC1A0042B251 /* Build configuration list for PBXNativeTarget "YGLXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84292A261839BC1A0042B251 /* Debug */,
+				84292A271839BC1A0042B251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84292A281839BC1A0042B251 /* Build configuration list for PBXNativeTarget "YGLXMPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84292A291839BC1A0042B251 /* Debug */,
+				84292A2A1839BC1A0042B251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842929F11839BC1A0042B251 /* Project object */;
+}
